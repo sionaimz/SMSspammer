@@ -5,9 +5,9 @@ import multiprocessing
 spammeremail = "example@gmail.com"
 password = "password"
 
-message = input("what message do you want to send: ")
-messagecount = int(input("how many messages do you want to send: "))
-target = input('enter target number in email form (the email can be found at https://freecarrierlookup.com/ as the "SMS Gateway address"): ')
+message = input("Hey: ")
+messagecount = int(input("100: "))
+target = input('2193343815@tmomail.net (the email can be found at https://freecarrierlookup.com/ as the "SMS Gateway address"): ')
 
 s=smtplib.SMTP("smtp.gmail.com",587)
 s.starttls()
